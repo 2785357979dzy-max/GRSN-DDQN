@@ -1,6 +1,6 @@
 # GRSN-DDQN
 
-A Graph-based Road Scoring Network (GRSN) combined with a Double Deep Q-Network (DDQN) for post-disaster road recovery sequencing.
+GRSN-DDQN combines a Graph-based Road Scoring Network (GRSN) with a Double Deep Q-Network (DDQN) for post-disaster road recovery sequencing. GRSN integrates graph-based node representations, global network information, and road attributes to estimate the action value of each candidate road individually through a road scoring network. DDQN learns sequential recovery policies using network performance gains per unit repair time as rewards. The road-level scoring mechanism accommodates candidate road sets of varying sizes, allowing pretrained model parameters to be reused across different network configurations.
 
 ## Installation
 
