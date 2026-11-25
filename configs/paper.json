@@ -1,0 +1,14 @@
+{
+  "gamma": 0.9,
+  "learning_rate": 0.001,
+  "batch_size": 32,
+  "episodes_per_scenario": 40,
+  "target_update_steps": 500,
+  "epsilon_start": 0.8,
+  "epsilon_end": 0.01,
+  "replay_capacity": 14100,
+  "gcn_widths": [16, 16, 16],
+  "mlp_widths": [64, 64, 32],
+  "repair_length_unit_m": 500.0,
+  "seed": 43
+}

@@ -1,0 +1,15 @@
+{
+  "network": "data/network.npz",
+  "scenarios": [
+    {"id": "train_1", "split": "train", "file": "data/train_1.npz"},
+    {"id": "train_2", "split": "train", "file": "data/train_2.npz"},
+    {"id": "train_3", "split": "train", "file": "data/train_3.npz"},
+    {"id": "train_4", "split": "train", "file": "data/train_4.npz"},
+    {"id": "train_5", "split": "train", "file": "data/train_5.npz"},
+    {"id": "train_6", "split": "train", "file": "data/train_6.npz"},
+    {"id": "train_7", "split": "train", "file": "data/train_7.npz"},
+    {"id": "train_8", "split": "train", "file": "data/train_8.npz"},
+    {"id": "train_9", "split": "train", "file": "data/train_9.npz"},
+    {"id": "test_1", "split": "test", "file": "data/test_1.npz"}
+  ]
+}
